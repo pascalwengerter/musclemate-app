@@ -1,6 +1,6 @@
 <template>
-  <BackButton />
   <DarkLogo />
+  <BackButton />
   <WorkoutCard>
     <h1>About</h1>
     <p>
