@@ -1,6 +1,6 @@
 <template>
   <DarkLogo />
-  <WorkoutCard>
+  <WorkoutCard inner-padding="">
     <div
       class="rounded-t-2xl bg-gradient-to-r from-secondary to-primary py-8 text-center"
     >
