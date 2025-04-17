@@ -3,9 +3,7 @@
   <BackButton />
   <WorkoutCard>
     <h1>Basic Workout</h1>
-    <p>
-      Choose a ready-made workout for the most convenient way of exercising.
-    </p>
+    <p>Choose a ready-made workout for the most convenient way of exercising.</p>
     <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
       <button
         v-for="workout in store.availableWorkouts"

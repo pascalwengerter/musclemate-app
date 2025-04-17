@@ -9,9 +9,7 @@
       >
         Another round
       </router-link>
-      <router-link class="btn btn-gradient block" to="/">
-        Back home
-      </router-link>
+      <router-link class="btn btn-gradient block" to="/"> Back home </router-link>
     </div>
   </WorkoutCard>
 </template>

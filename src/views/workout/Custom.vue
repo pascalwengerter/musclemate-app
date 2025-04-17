@@ -16,9 +16,7 @@
       <input type="submit" value="Add" />
     </div>
     <br />
-    <router-link class="btn btn-gradient" to="/workout/ready">
-      Done
-    </router-link>
+    <router-link class="btn btn-gradient" to="/workout/ready"> Done </router-link>
   </WorkoutCard>
 </template>
 

@@ -12,8 +12,8 @@
     <p class="my-4">Mail: gainz@musclemate.app</p>
     <h2>Privacy</h2>
     <p>
-      This web application does not use cookies or tracking scripts, nor does it
-      collect or save any personal data.
+      This web application does not use cookies or tracking scripts, nor does it collect or save any
+      personal data.
     </p>
   </WorkoutCard>
 </template>

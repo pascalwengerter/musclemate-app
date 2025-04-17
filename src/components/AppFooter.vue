@@ -4,13 +4,17 @@
       <span
         class="md:float-left md:my-0 md:text-initial md:inline my-3 float-none text-center block"
       >
-        © {{currentYear}} MuscleMate
+        © {{ currentYear }} MuscleMate
       </span>
       <span
         class="md:float-right md:my-0 md:text-initial md:inline my-3 float-none text-center block lba"
       >
         Design by
-        <a href="https://www.linkedin.com/in/valentin-eiber-018383173/" target="_blank" rel="noopener">
+        <a
+          href="https://www.linkedin.com/in/valentin-eiber-018383173/"
+          target="_blank"
+          rel="noopener"
+        >
           Valentin Eiber
         </a>
       </span>

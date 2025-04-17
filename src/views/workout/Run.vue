@@ -1,9 +1,7 @@
 <template>
   <DarkLogo />
   <WorkoutCard inner-padding="">
-    <div
-      class="rounded-t-2xl bg-gradient-to-r from-secondary to-primary py-8 text-center"
-    >
+    <div class="rounded-t-2xl bg-gradient-to-r from-secondary to-primary py-8 text-center">
       <h1 class="text-white text-7xl my-4">{{ countDown }}s</h1>
       <h2 class="text-white text-2xl">{{ subHeading }}</h2>
     </div>
@@ -119,11 +117,17 @@ progress[value]::-webkit-progress-bar {
 progress[value]::-webkit-progress-value {
   background-image: -webkit-linear-gradient(left, #183a4b, #183a4b);
   border-radius: 0;
-  background-size: 35px 30px, 100% 100%, 100% 100%;
+  background-size:
+    35px 30px,
+    100% 100%,
+    100% 100%;
 }
 progress[value]::-moz-progress-bar {
   background-image: -moz-linear-gradient(left, #183a4b, #183a4b);
   border-radius: 0;
-  background-size: 35px 20px, 100% 100%, 100% 100%;
+  background-size:
+    35px 20px,
+    100% 100%,
+    100% 100%;
 }
 </style>

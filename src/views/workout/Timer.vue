@@ -21,9 +21,7 @@
     />
     <p>
       Break time in seconds:
-      <label class="font-bold" for="rest-time">
-        {{ chosenWorkoutDuration.rest }} Seconds
-      </label>
+      <label class="font-bold" for="rest-time"> {{ chosenWorkoutDuration.rest }} Seconds </label>
     </p>
     <input
       id="rest-time"
@@ -35,9 +33,7 @@
       type="range"
       name="rest-time"
     />
-    <p class="my-8">
-      You can choose your exercises in the next step. Click DONE to continue.
-    </p>
+    <p class="my-8">You can choose your exercises in the next step. Click DONE to continue.</p>
     <div class="text-center py-8">
       <router-link
         class="btn text-white border-dark bg-dark border-4 py-3 px-5"
