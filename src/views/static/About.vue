@@ -50,6 +50,10 @@
       >.
     </p>
     <p class="mt-12">
+      Design by
+      <a href="https://valentineiber.com/" target="_blank" rel="noopener"> Valentin Eiber </a>
+    </p>
+    <p class="mt-12">
       The biceps icon was made by
       <a href="http://delapouite.com/" target="_blank" rel="noopener" class="inline-link">
         Delapouite </a
@@ -60,3 +64,15 @@
     </p>
   </WorkoutCard>
 </template>
+
+<style scoped>
+a {
+  background: -webkit-linear-gradient(#6deaa7, #43cdec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
