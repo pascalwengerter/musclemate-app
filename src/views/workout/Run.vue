@@ -2,6 +2,7 @@
   <DarkLogo />
   <WorkoutCard inner-padding="">
     <div class="rounded-t-2xl bg-gradient-to-r from-secondary to-primary py-8 text-center">
+      <BicepsIcon :isRunning="!paused" />
       <h1 class="text-white text-7xl my-4">{{ countDown }}s</h1>
       <h2 class="text-white text-2xl">{{ subHeading }}</h2>
     </div>
@@ -17,6 +18,7 @@ import { computed, onMounted, ref, unref } from "vue";
 import { useRouter } from "vue-router";
 import whistleActiveSound from "../../assets/sounds/whistle_2.mp3";
 import whistleRestSound from "../../assets/sounds/whistle.mp3";
+import BicepsIcon from "../../components/BicepsIcon.vue";
 import { useWorkoutStore } from "../../store/workout";
 import { Exercise } from "../../../types";
 
