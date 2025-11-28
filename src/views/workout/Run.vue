@@ -14,8 +14,9 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, onMounted, ref, unref } from "vue";
+import { computed, onMounted, onUnmounted, ref, unref } from "vue";
 import { useRouter } from "vue-router";
+import { useWakeLock } from "@vueuse/core";
 import whistleActiveSound from "../../assets/sounds/whistle_2.mp3";
 import whistleRestSound from "../../assets/sounds/whistle.mp3";
 import BicepsIcon from "../../components/BicepsIcon.vue";
@@ -98,8 +99,19 @@ const runWorkout = async (exerciseList: Exercise[]) => {
   router.push("finished");
 };
 
+const wakeLock = useWakeLock();
+
 onMounted(() => {
   runWorkout(currentWorkout.exercises);
+  wakeLock.request("screen").catch((e) => {
+    console.info("Wake lock request failed:", e);
+  });
+});
+
+onUnmounted(() => {
+  wakeLock.release().catch((e) => {
+    console.warn("Wake lock release failed:", e);
+  });
 });
 </script>
 
