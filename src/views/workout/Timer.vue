@@ -29,7 +29,7 @@
       class="block mx-auto my-3"
       min="5"
       max="60"
-      step="5"
+      step="1"
       type="range"
       name="rest-time"
     />
