@@ -2,7 +2,7 @@ import { defineStore } from "pinia";
 import { Workout } from "../../types";
 import { availableWorkouts } from "../workouts";
 
-export const useWorkoutStore = defineStore("foo", {
+export const useWorkoutStore = defineStore("workout", {
   state: () => {
     return {
       availableWorkouts,

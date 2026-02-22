@@ -36,7 +36,7 @@
     <div class="text-center py-8">
       <router-link
         class="btn text-white border-dark bg-dark border-4 py-3 px-5"
-        to="/workout/ready"
+        to="/workout/session"
       >
         Done
       </router-link>

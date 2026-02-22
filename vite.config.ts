@@ -17,6 +17,7 @@ export default defineConfig({
         theme_color: "#e5e5e5",
         background_color: "#e5e5e5",
         display: "standalone",
+        orientation: "portrait",
         icons: [
           {
             src: "/android-chrome-192x192.png",
