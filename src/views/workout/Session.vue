@@ -18,7 +18,7 @@
   <!-- Running phase -->
   <template v-if="phase === 'running'">
     <WorkoutCard inner-padding="">
-      <div class="rounded-t-2xl bg-gradient-to-r from-secondary to-primary py-8 text-center">
+      <div class="rounded-t-2xl bg-linear-to-r from-secondary to-primary py-8 text-center">
         <BicepsIcon :isRunning="!paused" />
         <h1 class="text-white text-7xl my-4">{{ countDown }}s</h1>
         <h2 class="text-white text-2xl">{{ subHeading }}</h2>

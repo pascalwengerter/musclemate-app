@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6deaa7;
+  --color-secondary: #43cdec;
+  --color-dark: #183a4b;
+}
 
 @font-face {
   font-family: "Poppins";
@@ -50,7 +54,7 @@ h1 {
 }
 
 .btn-gradient {
-  @apply text-white py-4 px-6 bg-gradient-to-r from-secondary to-primary;
+  @apply text-white py-4 px-6 bg-linear-to-r from-secondary to-primary;
 }
 
 .card {
