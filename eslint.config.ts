@@ -21,5 +21,15 @@ export default defineConfigWithVueTs(
 
   pluginVue.configs["flat/essential"],
   vueTsConfigs.recommended,
+
+  {
+    // Route views are named after their route (Home, Timer, ...)
+    name: "app/views",
+    files: ["src/views/**/*.vue"],
+    rules: {
+      "vue/multi-word-component-names": "off",
+    },
+  },
+
   skipFormatting
 );
