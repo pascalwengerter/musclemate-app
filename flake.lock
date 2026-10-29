@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "devshell": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1793017107,
+        "narHash": "sha256-mitXSd9gZqPeeJfwtNg2/sr/5pbHrmYiz6dj8ttYyBg=",
+        "path": "/Users/doesitevenmatter/Projects/devshell",
+        "type": "path"
+      },
+      "original": {
+        "path": "/Users/doesitevenmatter/Projects/devshell",
+        "type": "path"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1792842277,
+        "narHash": "sha256-pGPnZGi8y9d76xNeracniXO3dsYVROEmMkMc8jD0Ihc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d3b13ad75cc492690728f9307e443dec9ef9a20e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "devshell": "devshell"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
